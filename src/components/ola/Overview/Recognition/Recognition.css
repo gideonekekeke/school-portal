@@ -1,0 +1,55 @@
+.cleanBg {
+  height: 100vh;
+  width: 100%;
+  /* background-color: blue; */
+  margin-top: 150px;
+}
+.bigBg {
+  height: 100%;
+  width: 100%;
+  padding: 40px 80px 40px 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media Screen and (max-width: 768px) {
+  .cleanBg {
+    height: auto;
+    width: 100%;
+    /* background-color: blue; */
+    margin-top: 270px;
+  }
+  .bigBg {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+@media Screen and (max-width: 425px) {
+  .cleanBg {
+    height: auto;
+    width: 100%;
+    /* background-color: blue; */
+    margin-top: 270px;
+  }
+  .bigBg {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+@media Screen and (max-width: 320px) {
+  .cleanBg {
+    height: auto;
+    width: 100%;
+    /* background-color: blue; */
+    margin-top: 270px;
+  }
+  .bigBg {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

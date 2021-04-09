@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Antony Okon",
+    "occupation": "student",
+    "testimony": "I thought a game was going to be extremely hard to make, but Tynker made it really easy",
+    "img": "/img/testimonial-student-cropped.png"
+  },
+  {
+    "name": "Rafaji Biliki",
+    "occupation": "Parent",
+    "testimony": "There's so much opportunity once they understand how coding works. It's amazing to see them create incredible things themselves.",
+    "img": "/img/testimonial-parent-cropped.png"
+  },
+  {
+    "name": "Buda Rachel",
+    "occupation": "Teacher",
+    "testimony": "CodeLab has made programming fun, exciting, and simple and will help lead kids into their future.",
+    "img": "/img/testimonial-teacher-cropped.png"
+  }
+]

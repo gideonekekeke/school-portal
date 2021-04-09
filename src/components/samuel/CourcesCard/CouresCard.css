@@ -1,0 +1,61 @@
+.GeneralCoursecardDiv{
+  height: 316px;
+  width: 272px;
+  /* background-color: darkgoldenrod; */
+  margin: 10px;
+  font-family: poppins;
+  border-radius: 3px;
+  box-shadow: 2px 2px 4px grey;
+}
+
+.CourseCardImageDiv{
+  height: 162px;
+  width: 272px;
+  /* background-color: darkcyan; */
+}
+
+.CCAftImgDiv{
+  height: 24px;
+  width: 272px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dff2fc;
+}
+
+.CCAftImgDivHold{
+  width: 250px;
+  /* background-color: darksalmon; */
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.CCTextDivHold{
+  height: 130px;
+  width: 272px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CCTextTitle{
+  font-size: 20px;
+  color: #6d80a5
+}
+
+.CCTextSubTitle{
+  width: 240px;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-around;
+  margin-left: 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.CCTextContent{
+  font-size: 14px;
+}

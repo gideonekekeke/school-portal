@@ -1,0 +1,290 @@
+.CardContainer {
+  height: 80vh;
+  width: 100%;
+  padding: 20px;
+}
+.introText {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: poppins;
+}
+.introAd {
+  display: flex;
+  justify-content: center;
+  font-family: poppins;
+}
+.CardContentA {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90%;
+  width: 100%;
+  padding-top: 50px;
+}
+.CardContentB {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90%;
+  width: 100%;
+  padding-top: 50px;
+}
+.CardContentC {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90%;
+  width: 100%;
+  padding-top: 50px;
+}
+.CardImg {
+  /* background-color: deepskyblue; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.CardText {
+  /* background-color: purple; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 0 30px 0 30px;
+}
+.Topics {
+  font-family: poppins;
+  font-size: 20px;
+}
+.introTopics {
+  margin-top: 20px;
+}
+.listed {
+  padding-left: 30px;
+  padding-top: 20px;
+  line-height: 25px;
+}
+/* tablet screen */
+@media Screen and (max-width: 768px) {
+  .CardContainer {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+  }
+  .introText {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    font-family: poppins;
+  }
+  .introAd {
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+  }
+  .CardContentA {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .CardContentB {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    flex-direction: column-reverse;
+    height: 90%;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .CardContentC {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .CardImg {
+    /* background-color: deepskyblue; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    width: 80%;
+    padding: 80px;
+  }
+  .CardText {
+    /* background-color: purple; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20px; */
+    padding: 0 100px 0 100px;
+  }
+  .Topics {
+    font-family: poppins;
+    font-size: 20px;
+  }
+  .introTopics {
+    margin-top: 20px;
+  }
+  .listed {
+    padding-left: 30px;
+    padding-top: 20px;
+    line-height: 25px;
+  }
+}
+/* for mobile */
+@media Screen and (max-width: 425px) {
+  .CardContainer {
+    height: auto;
+    width: 100%;
+    padding: auto;
+  }
+  .introText {
+    /* padding-top: 10px; */
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: poppins;
+  }
+  .introAd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    width: auto;
+    padding: 20px;
+  }
+  .CardContentA {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr 1fr; */
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .CardContentB {
+    display: flex;
+    flex-direction: column-reverse;
+    /* grid-template-columns: 1fr 1fr; */
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .CardContentC {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr 1fr; */
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .CardImg {
+    /* background-color: deepskyblue; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .CardText {
+    /* background-color: purple; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  .Topics {
+    font-family: poppins;
+    font-size: 16px;
+    width: 100%;
+  }
+  .introTopics {
+    margin-top: 10px;
+  }
+  .listed {
+    padding-left: 15px;
+    padding-top: 10px;
+    line-height: 20px;
+  }
+}
+@media Screen and (max-width: 320px) {
+  .CardContainer {
+    display: none;
+    height: auto;
+    width: 100%;
+    /* padding: auto; */
+  }
+  .introText {
+    /* padding-top: 10px; */
+    display: flex;
+    /* justify-content: center; */
+    font-size: 15px;
+    font-family: poppins;
+    padding: 10px;
+  }
+  .introAd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    width: auto;
+    padding: 20px;
+  }
+  .CardContentA {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr 1fr; */
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .CardContentB {
+    display: flex;
+    flex-direction: column-reverse;
+    /* grid-template-columns: 1fr 1fr; */
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .CardContentC {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr 1fr; */
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .CardImg {
+    /* background-color: deepskyblue; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .CardText {
+    /* background-color: purple; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 5px;
+  }
+  .Topics {
+    font-family: poppins;
+    font-size: 12px;
+    width: 100%;
+  }
+  .introTopics {
+    margin-top: 10px;
+  }
+  .listed {
+    padding-left: 12px;
+    padding-top: 10px;
+    line-height: 15px;
+  }
+}

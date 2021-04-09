@@ -1,0 +1,651 @@
+.priceContainer {
+  height: 130vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #8a3acc, #88ddf7, white);
+}
+.priceIns {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 18px;
+}
+.priceIns > h1 {
+  color: white;
+  font: poppins;
+}
+.pricePlans {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.plan1 {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: poppins;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: #06065f;
+  transition: all 300ms ease-in;
+}
+.plan1:hover {
+  cursor: pointer;
+  background-color: grey;
+  transform: scale(1);
+}
+.plan2 {
+  width: 150px;
+  height: 50px;
+  background-color: none;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: poppins;
+  color: white;
+  transition: all 300ms ease-in;
+}
+.plan2:hover {
+  cursor: pointer;
+  background-color: white;
+  transform: scale(1);
+  color: #06065f;
+}
+.plan3 {
+  width: 150px;
+  height: 50px;
+  background-color: none;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 16px;
+  font-family: poppins;
+  color: white;
+  transition: all 300ms ease-in;
+}
+.plan3:hover {
+  cursor: pointer;
+  background-color: white;
+  transform: scale(1);
+  color: #06065f;
+}
+.allPriceCards {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.priceCard {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 300px;
+  width: 320px;
+  background-color: white;
+  border-radius: 10px;
+  transition: all 400ms ease-out;
+  cursor: pointer;
+}
+.priceCard:hover {
+  transform: scale(1.02);
+}
+.coloredprice {
+  color: #ce4735;
+}
+.Time {
+  height: 40%;
+  width: 100%;
+  background-color: #6363be;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Time > h2 {
+  color: white;
+  font-family: poppins;
+  font-size: 20px;
+}
+.priceContent {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+}
+.CurrentPrice {
+  display: flex;
+}
+.mainPrice {
+  margin-top: 5px;
+}
+.CurrentPrice > h3 {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.oldPrice > h2 {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.gateWay {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 150px;
+  padding-top: 20px;
+}
+.offerPlan {
+  display: flex;
+  flex-direction: column;
+}
+.premiumplan {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.premiumContent {
+  line-height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+@media Screen and (max-width: 768px) {
+  .priceContainer {
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to bottom, #8a3acc, #88ddf7, white);
+  }
+  .priceIns {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 18px;
+  }
+  .priceIns > h1 {
+    color: white;
+    font: poppins;
+  }
+  .pricePlans {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .plan1 {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: poppins;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: #06065f;
+    transition: all 300ms ease-in;
+  }
+  .plan1:hover {
+    cursor: pointer;
+    background-color: grey;
+    transform: scale(1);
+  }
+  .plan2 {
+    width: 150px;
+    height: 50px;
+    background-color: none;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: poppins;
+    color: white;
+    transition: all 300ms ease-in;
+  }
+  .plan2:hover {
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1);
+    color: #06065f;
+  }
+  .plan3 {
+    width: 150px;
+    height: 50px;
+    background-color: none;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 16px;
+    font-family: poppins;
+    color: white;
+    transition: all 300ms ease-in;
+  }
+  .plan3:hover {
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1);
+    color: #06065f;
+  }
+  .allPriceCards {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .priceCard {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 300px;
+    width: 220px;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 400ms ease-out;
+    cursor: pointer;
+  }
+  .priceCard:hover {
+    transform: scale(1.02);
+  }
+  .coloredprice {
+    color: #ce4735;
+  }
+  .Time {
+    height: 40%;
+    width: 100%;
+    background-color: #6363be;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Time > h2 {
+    color: white;
+    font-family: poppins;
+    font-size: 20px;
+  }
+  .priceContent {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+  }
+  .CurrentPrice {
+    display: flex;
+  }
+  .mainPrice {
+    margin-top: 5px;
+  }
+  .CurrentPrice > h3 {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .oldPrice > h2 {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  .gateWay {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+  .offerPlan {
+    display: flex;
+    flex-direction: column;
+  }
+  .premiumplan {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .premiumContent {
+    line-height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+}
+@media Screen and (max-width: 425px) {
+  .priceContainer {
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to bottom, #8a3acc, #88ddf7, white);
+  }
+  .priceIns {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .priceIns > h1 {
+    color: white;
+    font: poppins;
+  }
+  .pricePlans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .plan1 {
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: poppins;
+    border-radius: 8px;
+    color: #06065f;
+    transition: all 300ms ease-in;
+  }
+  .plan1:hover {
+    cursor: pointer;
+    background-color: grey;
+    transform: scale(1);
+  }
+  .plan2 {
+    width: 180px;
+    height: 50px;
+    background-color: none;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: poppins;
+    color: white;
+    transition: all 300ms ease-in;
+  }
+  .plan2:hover {
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1);
+    color: #06065f;
+  }
+  .plan3 {
+    width: 150px;
+    height: 50px;
+    background-color: none;
+    margin-top: 10px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: poppins;
+    color: white;
+    transition: all 300ms ease-in;
+  }
+  .plan3:hover {
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1);
+    color: #06065f;
+  }
+  .allPriceCards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .priceCard {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 300px;
+    width: 400px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 400ms ease-out;
+    cursor: pointer;
+  }
+  .priceCard:hover {
+    transform: scale(1.02);
+  }
+  .coloredprice {
+    color: #ce4735;
+  }
+  .Time {
+    height: 40%;
+    width: 100%;
+    background-color: #6363be;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Time > h2 {
+    color: white;
+    font-family: poppins;
+    font-size: 20px;
+  }
+  .priceContent {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+  }
+  .CurrentPrice {
+    display: flex;
+  }
+  .mainPrice {
+    margin-top: 5px;
+  }
+  .CurrentPrice > h3 {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .oldPrice > h2 {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  .gateWay {
+    display: flex;
+    justify-content: center;
+    /* padding-right: 30px; */
+    padding-top: 20px;
+  }
+  .offerPlan {
+    display: flex;
+    flex-direction: column;
+  }
+  .premiumplan {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .premiumContent {
+    line-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+}
+@media Screen and (max-width: 320px) {
+  .priceContainer {
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to bottom, #8a3acc, #88ddf7, white);
+  }
+  .priceIns {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .priceIns > h1 {
+    color: white;
+    font: poppins;
+  }
+  .pricePlans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .plan1 {
+    width: 220px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: poppins;
+    border-radius: 8px;
+    color: #06065f;
+    transition: all 300ms ease-in;
+  }
+  .plan1:hover {
+    cursor: pointer;
+    background-color: grey;
+    transform: scale(1);
+  }
+  .plan2 {
+    width: 120px;
+    height: 50px;
+    background-color: none;
+    border: 1px solid white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: poppins;
+    color: white;
+    transition: all 300ms ease-in;
+  }
+  .plan2:hover {
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1);
+    color: #06065f;
+  }
+  .plan3 {
+    width: 120px;
+    height: 50px;
+    background-color: none;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: poppins;
+    color: white;
+    transition: all 300ms ease-in;
+  }
+  .plan3:hover {
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1);
+    color: #06065f;
+  }
+  .allPriceCards {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .priceCard {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 300px;
+    width: 320px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 400ms ease-out;
+    cursor: pointer;
+  }
+  .priceCard:hover {
+    transform: scale(1.02);
+  }
+  .coloredprice {
+    color: #ce4735;
+  }
+  .Time {
+    height: 40%;
+    width: 100%;
+    background-color: #6363be;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Time > h2 {
+    color: white;
+    font-family: poppins;
+    font-size: 20px;
+  }
+  .priceContent {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+  }
+  .CurrentPrice {
+    display: flex;
+  }
+  .mainPrice {
+    margin-top: 5px;
+  }
+  .CurrentPrice > h3 {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .oldPrice > h2 {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  .gateWay {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+  }
+  .offerPlan {
+    display: flex;
+    flex-direction: column;
+  }
+  .premiumplan {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .premiumContent {
+    line-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+}

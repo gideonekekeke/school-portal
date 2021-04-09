@@ -1,0 +1,370 @@
+.mainContainer {
+  height: 100vh;
+  width: 100%;
+  background-color: #030033;
+}
+.mainContent {
+  height: 80%;
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mainPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  padding: 80px;
+}
+.imgBack {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+}
+.bold1 {
+  font-size: 45px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 60px;
+  margin-left: -25px;
+}
+.bold2 {
+  font-size: 45px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.plain1 {
+  width: 60%;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: -60px;
+  line-height: 20px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.wayboth {
+  display: flex;
+  flex-direction: column;
+  margin-left: -110px;
+}
+.wayBoth {
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.salesText {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.salesText > p {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: line-through;
+}
+/* tablet media screen */
+@media Screen and (max-width: 768px) {
+  .mainContainer {
+    height: 100vh;
+    width: 100%;
+    background-color: #030033;
+  }
+  .mainContent {
+    height: 80%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mainPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+    margin-bottom: 20px;
+  }
+  .imgBack {
+    width: 100%;
+    height: 90%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+  }
+  .bold1 {
+    font-size: 45px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 60px;
+    margin-left: -25px;
+  }
+  .bold2 {
+    font-size: 45px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+  .plain1 {
+    width: 75%;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-left: 60px;
+    line-height: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .wayboth {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  .wayBoth {
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .salesText {
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+  .salesText > p {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: line-through;
+  }
+}
+/* standard phone screen */
+@media Screen and (max-width: 425px) {
+  .mainContainer {
+    height: 100vh;
+    width: 100%;
+    background-color: #030033;
+  }
+  .mainContent {
+    height: 80%;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mainPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    padding: 80px;
+  }
+  .imgBack {
+    display: none;
+  }
+  .bold1 {
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 40px;
+  }
+  .bold2 {
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .plain1 {
+    width: 100%;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 17px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .wayboth {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .wayBoth {
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .salesText {
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+  .salesText > p {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: line-through;
+  }
+}
+/* Iphone screen view */
+@media Screen and (max-width: 375px) {
+  .mainContainer {
+    height: 75vh;
+    width: 100%;
+    background-color: #030033;
+  }
+  .mainContent {
+    height: 80%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mainPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .imgBack {
+    display: none;
+  }
+  .bold1 {
+    font-size: 20px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 45px;
+  }
+  .bold2 {
+    font-size: 20px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+  .plain1 {
+    width: 100%;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .wayboth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-left: 30px;
+  }
+  .wayBoth {
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .salesText {
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+  .salesText > p {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: line-through;
+  }
+}
+@media Screen and (max-width: 320px) {
+  .mainContainer {
+    height: 75vh;
+    width: 100%;
+    background-color: #030033;
+  }
+  .mainContent {
+    height: 80%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mainPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .imgBack {
+    display: none;
+  }
+  .bold1 {
+    font-size: 20px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 45px;
+  }
+  .bold2 {
+    font-size: 20px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  .plain1 {
+    width: 100%;
+    height: 90px;
+    color: white;
+    font-family: poppins;
+    line-height: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+  }
+  .wayboth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-left: 30px;
+  }
+  .wayBoth {
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .salesText {
+    display: flex;
+    flex-direction: row;
+    color: white;
+  }
+  .salesText > p {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: line-through;
+  }
+}

@@ -1,0 +1,132 @@
+.registration {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.register__container {
+  background-color: #e1e1d7;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Nallnack{
+  display: none;
+  position: absolute;
+  top: 10px;
+}
+
+
+@media screen and (max-width:320px){
+  .Nallnack{
+    display: flex;
+    position: absolute;
+    top: -60px;
+    right: 10px;
+  }
+}
+
+
+@media screen and (max-width:320px){
+  .Nallnack{
+    display: flex;
+    position: absolute;
+    top: -60px;
+    right: 10px;
+  }
+}
+
+
+
+.bullet {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.bullet__space {
+  margin-right: 20px;
+  margin-top: 8px;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: black;
+}
+.content__piece {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 20px 10px;
+  text-align: left;
+  line-height: 1;
+}
+.reg_holder {
+  width: 300px;
+  height: 27em;
+  /* background-color: aqua; */
+  background: #fff;
+  border-radius: 5px;
+  /* margin: 10px 10px; */
+}
+
+.reg_holder1{
+  width: 300px;
+  height: 27em;
+  /* background-color: aqua; */
+  background: #fff;
+  border-radius: 5px;
+  /* margin: 10px 10px; */
+
+}
+
+@media screen and (max-width:320px){
+  .reg_holder1{
+    display: none;
+  }
+}
+
+@media screen and (max-width:375px){
+  .reg_holder1{
+    display: none;
+  }
+}
+
+@media screen and (max-width:425px){
+  .reg_holder1{
+    display: none;
+  }
+}
+
+@media screen and (max-width:768px){
+  .reg_holder1{
+    display: none;
+  }
+}
+.reg__form {
+  width: 300px;
+  height: 27em;
+  margin: 10px 10px;
+
+  /* background: #fff; */
+
+  border-radius: 5px;
+}
+
+.holderArrange {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  width: 280px;
+  font-weight: bold;
+  /* background-color: red; */
+  margin-bottom: 10px;
+}
+
+Button {
+  height: 50px;
+  width: 200px;
+}

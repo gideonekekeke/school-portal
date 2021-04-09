@@ -1,0 +1,144 @@
+.curContainer {
+  height: 70vh;
+  width: 100%;
+  margin-top: 10px;
+  padding: 80px;
+}
+.curText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.curText > div {
+  font-size: 16px;
+}
+.curImg {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+.imgterms {
+  height: 90%;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.curButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+@media Screen and (max-width: 768px) {
+  .curContainer {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    padding: 80px;
+  }
+  .curText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .curText > div {
+    font-size: 16px;
+  }
+  .curImg {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+  .imgterms {
+    height: 90%;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .curButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+@media Screen and (max-width: 425px) {
+  .curContainer {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    padding: 50px;
+  }
+  .curText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .curText > div {
+    font-size: 14px;
+  }
+  .curImg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+  .imgterms {
+    height: 90%;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .curButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+@media Screen and (max-width: 320px) {
+  .curContainer {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    padding: 30px;
+  }
+  .curText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .curText > div {
+    font-size: 12px;
+  }
+  .curImg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+  .imgterms {
+    height: 90%;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .curButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+}

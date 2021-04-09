@@ -1,0 +1,110 @@
+.GeneralHHDiv{
+  height: 272px;
+  width: 100vw;
+  /* background-color: skyblue; */
+  background: linear-gradient(to right, #00bfcc, #038fd4 );
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-family: poppins;
+}
+
+@media screen and (max-width: 786px){
+  .GeneralHHDiv{
+    height: 320px;
+    width: 100vw;
+  }
+}
+
+.SubGeneralHHDiv{
+  width:1000px ;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+}
+
+@media screen and (max-width: 786px){
+  .SubGeneralHHDiv{
+    margin-top: -0px;
+  }
+}
+
+.StandardDivHold{
+  width: 1000px;
+  /* background-color: aqua; */
+  margin-top: -30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 786px){
+  .StandardDivHold{
+    width: 300px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    margin-left: 7px;
+  }
+}
+
+.StandardDiv{
+  height: 30px;
+  width: 110px;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.HHFirstTextDiv{
+  font-size: xx-large;
+  margin-bottom: 15px;
+}
+
+.HHSecondTextDiv{
+  font-weight: normal;
+  font-size: small;
+}
+
+@media screen and (max-width: 786px){
+  .HHSecondTextDiv{
+ margin-bottom: 40px;
+  }
+}
+
+.NavDiv{
+  width: 600px;
+  /* background-color: blanchedalmond; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.NavLink:hover{
+  color: #bae8ff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 786px){
+  .NavDiv{
+    margin-top: -0px;
+    width: 300px;
+    /* background-color: brown; */
+    font-size: smaller;
+  }
+}

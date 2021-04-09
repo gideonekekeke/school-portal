@@ -1,0 +1,46 @@
+.SchPlanGeneralDiv{
+  height: 350px;
+  width: 272px;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: poppins;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+}
+
+.SchPlanSubGeneralDiv{
+
+}
+
+.SPTitle{
+  font-size: x-large;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #565f85;
+}
+
+.SPContent{
+  font-size: 14px;
+}
+
+.SPPrePrice{
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.SPPrice{
+  width: 170px;
+  /* background-color: red; */
+  font-size: 17px;
+  margin-left: 30px;
+}
+
+.SPButton{
+  width: 230px;
+  background-color: #ff8d1a;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+}

@@ -1,0 +1,43 @@
+.partnerBg {
+  height: auto;
+  width: 100%;
+}
+.textTrust {
+  display: flex;
+  justify-content: center;
+}
+.ImgbgBox {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  padding: 20px;
+}
+.partnerImg {
+  height: 100px;
+  width: 120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media Screen and (max-width: 768px) {
+  .partnerBg {
+    height: auto;
+    width: 100%;
+  }
+  .textTrust {
+    display: flex;
+    justify-content: center;
+  }
+  .ImgbgBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .partnerImg {
+    height: 100px;
+    width: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

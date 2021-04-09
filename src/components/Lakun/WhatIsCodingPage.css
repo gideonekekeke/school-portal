@@ -1,0 +1,2615 @@
+.whatiscoding {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+
+	align-items: flex-start;
+}
+.WhatContent {
+	width: 80%;
+	height: auto;
+	display: flex;
+	/* background-color: gray; */
+	justify-content: center;
+	margin-top: 20px;
+	flex-direction: column;
+}
+.introwhatiscoding {
+	width: 100%;
+	height: 120px;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.left {
+	/* width: 40%; */
+	padding-left: 70px;
+}
+.left > h1 {
+	font-size: 50px;
+	font-weight: lighter;
+	font-family: sans-serif;
+}
+.left > h3 {
+	font-size: 30px;
+	font-weight: lighter;
+	font-family: sans-serif;
+	padding-left: 80px;
+	color: rgb(95, 93, 93);
+}
+.right {
+	height: 330px;
+	width: 270px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 2px rgba(245, 242, 242, 0.987);
+	display: flex;
+	flex-direction: column;
+	/* padding-left: 6px; */
+}
+.textup {
+	width: 100%;
+	height: 60px;
+	padding-left: 6px;
+	font-size: 15px;
+	font-weight: lighter;
+	font-family: sans-serif;
+	/* background-color: #6361eb; */
+	display: flex;
+
+	flex-direction: row;
+	align-items: center;
+}
+.right1 {
+	width: 100%;
+	height: 60px;
+	padding-left: 6px;
+	font-size: 15px;
+	font-weight: lighter;
+	font-family: sans-serif;
+	background-color: #6361eb;
+	display: flex;
+	color: white;
+	flex-direction: row;
+	align-items: center;
+	border-radius: 5px 5px 0px 0px;
+}
+.whatsStart {
+	margin-top: 20px;
+	width: 75%;
+	/* background-color: red; */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.image1Holder {
+	width: 360px;
+	height: 340px;
+	/* background-color: blue; */
+	object-fit: contain;
+	margin-top: 75px;
+}
+.kidCode {
+	widows: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.codingintrotext {
+	width: 53%;
+}
+.codingintrotext > h1 {
+	font-size: 35px;
+	color: rgb(0, 0, 0);
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+.codingintrotext > p {
+	font-size: 20px;
+	color: rgb(28, 27, 27);
+	line-height: 30px;
+}
+.whatiscodingforkids {
+	width: 66%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.whatiscodingforkids > h1 {
+	font-size: 35px;
+	color: rgb(0, 0, 0);
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+.whatiscodingforkids > p {
+	font-size: 20px;
+	color: rgb(28, 27, 27);
+	line-height: 30px;
+}
+.whatiscodingforkids2 {
+	display: flex;
+	flex-direction: row;
+	/* flex-wrap:wrap; */
+	width: 100%;
+}
+.whatiscodingforkids2 > img {
+	height: 300px;
+	width: 350px;
+}
+.whyshouldkidslearntocode {
+	display: flex;
+	/* flex-wrap: wrap; */
+	flex-direction: row;
+	width: 66%;
+}
+.whyshouldkidslearntocodetext > h1 {
+	font-size: 35px;
+	color: rgb(0, 0, 0);
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+.whyshouldkidslearntocodetext > p {
+	font-size: 20px;
+	color: rgb(28, 27, 27);
+	line-height: 30px;
+}
+.whyshouldkidslearntocode > img {
+	height: 300px;
+	width: 370px;
+	object-fit: contain;
+	margin-top: 100px;
+}
+.isithardtolearn > h1 {
+	font-size: 35px;
+	color: rgb(0, 0, 0);
+	font-family: sans-serif;
+	font-weight: lighter;
+	margin-top: 60px;
+}
+.hardimgandtext {
+	width: 66%;
+	display: flex;
+	flex-direction: row;
+}
+.hardimgandtext > p {
+	font-size: 20px;
+	color: rgb(28, 27, 27);
+	line-height: 30px;
+}
+.hardimgandtext > img {
+	height: 350px;
+	width: 400px;
+	object-fit: contain;
+}
+.howtoteachyourkidstocode {
+	width: 68%;
+}
+.howtoteachyourkidstocode > h1 {
+	font-size: 35px;
+	color: rgb(0, 0, 0);
+	font-family: sans-serif;
+	font-weight: lighter;
+	margin-top: 60px;
+}
+.howtoteachyourkidstocode > p {
+	font-size: 20px;
+	color: rgb(28, 27, 27);
+	line-height: 30px;
+}
+.learntocodeapp {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.learntocodeapp > p {
+	font-size: 20px;
+	color: rgb(28, 27, 27);
+	line-height: 30px;
+}
+.learntocodeapp > img {
+	width: 300px;
+	height: 300px;
+	margin-top: -40px;
+}
+.learntocodeonline {
+	width: 70%;
+}
+.learntocodeonline > h1 {
+	font-size: 35px;
+	color: rgb(0, 0, 0);
+	font-family: sans-serif;
+	font-weight: lighter;
+	margin-top: 60px;
+}
+.learntocodeonline > p {
+	font-size: 20px;
+	color: rgb(28, 27, 27);
+	line-height: 30px;
+}
+
+@media screen and (max-width: 1288px) {
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.WhatContent {
+		width: 80%;
+		height: auto;
+		display: flex;
+		/* background-color: gray; */
+		justify-content: center;
+		margin-top: 20px;
+		flex-direction: column;
+	}
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.WhatContent {
+		width: 80%;
+		height: auto;
+		display: flex;
+		/* background-color: gray; */
+		justify-content: center;
+		margin-top: 20px;
+		flex-direction: column;
+	}
+	.introwhatiscoding {
+		width: 100%;
+		height: auto;
+		flex-direction: row;
+		display: flex;
+		justify-content: space-between;
+		/* margin-bottom: 60px; */
+	}
+	.left {
+		/* width: 40%; */
+		padding-left: 40px;
+	}
+	.left > h1 {
+		font-size: 40px;
+		font-weight: lighter;
+		font-family: sans-serif;
+	}
+	.left > h3 {
+		font-size: 25px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		padding-left: 80px;
+		color: rgb(95, 93, 93);
+	}
+	.right {
+		height: 330px;
+		width: 270px;
+		border-radius: 5px;
+		box-shadow: 1px 1px 1px 2px rgba(245, 242, 242, 0.987);
+		display: flex;
+		flex-direction: column;
+		/* padding-left: 6px; */
+	}
+	.textup {
+		width: 100%;
+		height: 60px;
+		padding-left: 6px;
+		font-size: 15px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		/* background-color: #6361eb; */
+		display: flex;
+
+		flex-direction: row;
+		align-items: center;
+	}
+	.whatsStart {
+		margin-top: -220px;
+		width: 90%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.image1Holder {
+		width: 360px;
+		height: 340px;
+		object-fit: contain;
+		margin-top: 280px;
+		margin-right: -60px;
+	}
+	.kidCode {
+		widows: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+	.codingintrotext {
+		width: 53%;
+	}
+	.codingintrotext > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.codingintrotext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids {
+		width: 90%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.whatiscodingforkids > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.whatiscodingforkids > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids2 {
+		display: flex;
+		flex-direction: row;
+		/* flex-wrap:wrap; */
+		width: 100%;
+	}
+	.whatiscodingforkids2 > img {
+		height: 300px;
+		width: 350px;
+		margin-top: -30px;
+	}
+	.whyshouldkidslearntocode {
+		display: flex;
+		/* flex-wrap: wrap; */
+		flex-direction: row;
+		width: 90%;
+	}
+	.whyshouldkidslearntocodetext > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.whyshouldkidslearntocodetext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whyshouldkidslearntocode > img {
+		height: 300px;
+		width: 370px;
+		object-fit: contain;
+		margin-top: 30px;
+	}
+	.isithardtolearn {
+		width: 90%;
+	}
+	.isithardtolearn > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 50px;
+	}
+	.hardimgandtext {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+	.hardimgandtext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.hardimgandtext > img {
+		height: 350px;
+		width: 400px;
+		object-fit: contain;
+		margin-top: -40px;
+	}
+	.howtoteachyourkidstocode {
+		width: 90%;
+		margin-top: -15px;
+	}
+	.howtoteachyourkidstocode > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 60px;
+	}
+	.howtoteachyourkidstocode > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.learntocodeapp {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	.learntocodeapp > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.learntocodeapp > img {
+		width: 300px;
+		height: 300px;
+		margin-top: -40px;
+	}
+	.learntocodeonline {
+		width: 90%;
+	}
+	.learntocodeonline > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 60px;
+	}
+	.learntocodeonline > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+}
+
+@media screen and (max-width: 1084px) {
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.WhatContent {
+		width: 80%;
+		height: auto;
+		display: flex;
+		/* background-color: gray; */
+		justify-content: center;
+		margin-top: 20px;
+		flex-direction: column;
+	}
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.WhatContent {
+		width: 80%;
+		height: auto;
+		display: flex;
+		/* background-color: gray; */
+		justify-content: center;
+		margin-top: 100px;
+		flex-direction: column;
+	}
+	.introwhatiscoding {
+		width: 100%;
+		height: auto;
+		flex-direction: row;
+		display: flex;
+		justify-content: space-between;
+		/* margin-bottom: 60px; */
+	}
+	.left {
+		/* width: 40%; */
+		padding-left: 40px;
+	}
+	.left > h1 {
+		font-size: 35px;
+		font-weight: lighter;
+		font-family: sans-serif;
+	}
+	.left > h3 {
+		font-size: 20px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		padding-left: 40px;
+		color: rgb(95, 93, 93);
+	}
+	.right {
+		height: 330px;
+		width: 270px;
+		border-radius: 5px;
+		box-shadow: 1px 1px 1px 2px rgba(245, 242, 242, 0.987);
+		display: flex;
+		flex-direction: column;
+		/* padding-left: 6px; */
+	}
+	.textup {
+		width: 100%;
+		height: 60px;
+		padding-left: 6px;
+		font-size: 15px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		/* background-color: #6361eb; */
+		display: flex;
+
+		flex-direction: row;
+		align-items: center;
+	}
+	.whatsStart {
+		margin-top: -220px;
+		width: 90%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.image1Holder {
+		width: 360px;
+		height: 340px;
+		object-fit: contain;
+		margin-top: 280px;
+		margin-right: -60px;
+	}
+	.kidCode {
+		widows: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+	.codingintrotext {
+		width: 53%;
+		margin-top: 30px;
+	}
+	.codingintrotext > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.codingintrotext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids {
+		width: 90%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.whatiscodingforkids > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.whatiscodingforkids > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids2 {
+		display: flex;
+		flex-direction: row;
+		/* flex-wrap:wrap; */
+		width: 100%;
+	}
+	.whatiscodingforkids2 > img {
+		height: 300px;
+		width: 350px;
+		margin-top: -30px;
+	}
+	.whyshouldkidslearntocode {
+		display: flex;
+		/* flex-wrap: wrap; */
+		flex-direction: row;
+		width: 90%;
+	}
+	.whyshouldkidslearntocodetext > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.whyshouldkidslearntocodetext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whyshouldkidslearntocode > img {
+		height: 300px;
+		width: 370px;
+		object-fit: contain;
+		margin-top: 30px;
+	}
+	.isithardtolearn {
+		width: 90%;
+	}
+	.isithardtolearn > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 50px;
+	}
+	.hardimgandtext {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+	.hardimgandtext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.hardimgandtext > img {
+		height: 350px;
+		width: 400px;
+		object-fit: contain;
+		margin-top: -40px;
+	}
+	.howtoteachyourkidstocode {
+		width: 90%;
+		margin-top: -15px;
+	}
+	.howtoteachyourkidstocode > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 60px;
+	}
+	.howtoteachyourkidstocode > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.howtoteachyourkidstocode > img {
+		width: 100%;
+	}
+	.learntocodeapp {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	.learntocodeapp > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.learntocodeapp > img {
+		width: 300px;
+		height: 300px;
+		margin-top: -40px;
+	}
+	.learntocodeonline {
+		width: 90%;
+	}
+	.learntocodeonline > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 60px;
+	}
+	.learntocodeonline > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.WhatContent {
+		width: 80%;
+		height: auto;
+		display: flex;
+		/* background-color: gray; */
+		justify-content: center;
+		margin-top: 20px;
+		flex-direction: column;
+	}
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.WhatContent {
+		width: 80%;
+		height: auto;
+		display: flex;
+		/* background-color: gray; */
+		justify-content: center;
+		margin-top: 100px;
+		flex-direction: column;
+	}
+	.introwhatiscoding {
+		width: 100%;
+		height: auto;
+		flex-direction: row;
+		display: flex;
+		justify-content: space-between;
+		/* margin-bottom: 60px; */
+	}
+	.left {
+		/* width: 40%; */
+		padding-left: 40px;
+	}
+	.left > h1 {
+		font-size: 35px;
+		font-weight: lighter;
+		font-family: sans-serif;
+	}
+	.left > h3 {
+		font-size: 20px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		padding-left: 40px;
+		color: rgb(95, 93, 93);
+	}
+	.right {
+		height: 330px;
+		width: 270px;
+		border-radius: 5px;
+		box-shadow: 1px 1px 1px 2px rgba(245, 242, 242, 0.987);
+		display: flex;
+		flex-direction: column;
+		/* padding-left: 6px; */
+	}
+	.textup {
+		width: 100%;
+		height: 60px;
+		padding-left: 6px;
+		font-size: 15px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		/* background-color: #6361eb; */
+		display: flex;
+
+		flex-direction: row;
+		align-items: center;
+	}
+	.whatsStart {
+		margin-top: -220px;
+		width: 90%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.image1Holder {
+		width: 360px;
+		height: 340px;
+		object-fit: contain;
+		margin-top: 280px;
+		margin-right: -60px;
+	}
+	.kidCode {
+		widows: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+	.codingintrotext {
+		width: 53%;
+		margin-top: 30px;
+	}
+	.codingintrotext > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.codingintrotext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids {
+		width: 90%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.whatiscodingforkids > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.whatiscodingforkids > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids2 {
+		display: flex;
+		flex-direction: row;
+		/* flex-wrap:wrap; */
+		width: 100%;
+	}
+	.whatiscodingforkids2 > img {
+		height: 300px;
+		width: 350px;
+		margin-top: -30px;
+	}
+	.whyshouldkidslearntocode {
+		display: flex;
+		/* flex-wrap: wrap; */
+		flex-direction: row;
+		width: 90%;
+	}
+	.whyshouldkidslearntocodetext > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.whyshouldkidslearntocodetext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whyshouldkidslearntocode > img {
+		height: 300px;
+		width: 370px;
+		object-fit: contain;
+		margin-top: 30px;
+	}
+	.isithardtolearn {
+		width: 90%;
+	}
+	.isithardtolearn > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 50px;
+	}
+	.hardimgandtext {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+	.hardimgandtext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.hardimgandtext > img {
+		height: 350px;
+		width: 400px;
+		object-fit: contain;
+		margin-top: -40px;
+	}
+	.howtoteachyourkidstocode {
+		width: 90%;
+		margin-top: -15px;
+	}
+	.howtoteachyourkidstocode > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 60px;
+	}
+	.howtoteachyourkidstocode > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.howtoteachyourkidstocode > img {
+		width: 100%;
+	}
+	.learntocodeapp {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	.learntocodeapp > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.learntocodeapp > img {
+		width: 300px;
+		height: 300px;
+		margin-top: -40px;
+	}
+	.learntocodeonline {
+		width: 90%;
+	}
+	.learntocodeonline > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 60px;
+	}
+	.learntocodeonline > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+}
+
+@media screen and (max-width: 886px) {
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.WhatContent {
+		width: 80%;
+		height: auto;
+		display: flex;
+		/* background-color: gray; */
+		justify-content: center;
+		margin-top: 10px;
+		flex-direction: column;
+	}
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.WhatContent {
+		width: 80%;
+		height: auto;
+		display: flex;
+		/* background-color: gray; */
+		justify-content: center;
+		margin-top: 100px;
+		flex-direction: column;
+	}
+	.introwhatiscoding {
+		width: 100%;
+		height: auto;
+		flex-direction: row;
+		display: flex;
+		justify-content: space-between;
+		/* margin-bottom: 60px; */
+	}
+	.left {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		/* margin-bottom: 5px; */
+	}
+	.left > h1 {
+		font-size: 35px;
+		font-weight: lighter;
+		font-family: sans-serif;
+	}
+	.left > h3 {
+		font-size: 25px;
+		line-height: 0px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		padding-left: 40px;
+		color: rgb(95, 93, 93);
+	}
+	.right {
+		/* height: 330px;
+		width: 270px;
+		border-radius: 5px;
+		box-shadow: 1px 1px 1px 2px rgba(245, 242, 242, 0.987);
+		display: flex;
+		flex-direction: column;
+		padding-left: 6px; */
+		display: none;
+	}
+	.textup {
+		width: 100%;
+		height: 60px;
+		padding-left: 6px;
+		font-size: 15px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		/* background-color: #6361eb; */
+		display: flex;
+
+		flex-direction: row;
+		align-items: center;
+	}
+	.whatsStart {
+		margin-top: -40px;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.image1Holder {
+		width: 260px;
+		height: 250px;
+		object-fit: contain;
+		margin-top: 200px;
+		margin-right: 40px;
+	}
+	.kidCode {
+		widows: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+	.codingintrotext {
+		width: 53%;
+		margin-top: 30px;
+	}
+	.codingintrotext > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.codingintrotext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.whatiscodingforkids > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.whatiscodingforkids > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids2 {
+		display: flex;
+		flex-direction: row;
+		/* flex-wrap:wrap; */
+		width: 100%;
+	}
+	.whatiscodingforkids2 > img {
+		height: 280px;
+		width: 300px;
+		margin-top: 30px;
+	}
+	.whyshouldkidslearntocode {
+		display: flex;
+		/* flex-wrap: wrap; */
+		flex-direction: row;
+		width: 90%;
+	}
+	.whyshouldkidslearntocodetext > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.whyshouldkidslearntocodetext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whyshouldkidslearntocode > img {
+		height: 260px;
+		width: 300px;
+		object-fit: contain;
+		margin-top: 150px;
+	}
+	.isithardtolearn {
+		width: 100%;
+	}
+	.isithardtolearn > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 50px;
+	}
+	.hardimgandtext {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+	.hardimgandtext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.hardimgandtext > img {
+		height: 310px;
+		width: 370px;
+		object-fit: contain;
+		margin-top: -20px;
+	}
+	.howtoteachyourkidstocode {
+		width: 100%;
+		margin-top: -15px;
+	}
+	.howtoteachyourkidstocode > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 60px;
+	}
+	.howtoteachyourkidstocode > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.howtoteachyourkidstocode > img {
+		width: 100%;
+	}
+	.learntocodeapp {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	.learntocodeapp > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.learntocodeapp > img {
+		width: 300px;
+		height: 300px;
+		margin-top: -40px;
+	}
+	.learntocodeonline {
+		width: 90%;
+	}
+	.learntocodeonline > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 60px;
+	}
+	.learntocodeonline > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.WhatContent {
+		width: 80%;
+		height: auto;
+		display: flex;
+		/* background-color: gray; */
+		justify-content: center;
+		margin-top: 100px;
+		flex-direction: column;
+	}
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.WhatContent {
+		width: 80%;
+		height: auto;
+		display: flex;
+		/* background-color: gray; */
+		justify-content: center;
+		/* margin-top: 100px; */
+		flex-direction: column;
+	}
+	.introwhatiscoding {
+		width: 100%;
+		height: auto;
+		flex-direction: row;
+		display: flex;
+		justify-content: space-between;
+		/* margin-bottom: 60px; */
+	}
+	.left {
+		/* width: 40%; */
+		padding-left: 40px;
+	}
+	.left > h1 {
+		font-size: 35px;
+		font-weight: lighter;
+		font-family: sans-serif;
+	}
+	.left > h3 {
+		font-size: 20px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		padding-left: 40px;
+		color: rgb(95, 93, 93);
+	}
+	.right {
+		/* height: 330px;
+		width: 270px;
+		border-radius: 5px;
+		box-shadow: 1px 1px 1px 2px rgba(245, 242, 242, 0.987);
+		display: flex;
+		flex-direction: column;
+		padding-left: 6px; */
+		display: none;
+	}
+	.textup {
+		width: 100%;
+		height: 60px;
+		padding-left: 6px;
+		font-size: 15px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		/* background-color: #6361eb; */
+		display: flex;
+
+		flex-direction: row;
+		align-items: center;
+	}
+	.whatsStart {
+		margin-top: -220px;
+		width: 90%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.image1Holder {
+		width: 360px;
+		height: 340px;
+		object-fit: contain;
+		margin-top: 280px;
+		margin-right: -60px;
+	}
+	.kidCode {
+		widows: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+	.codingintrotext {
+		width: 53%;
+		margin-top: 30px;
+	}
+	.codingintrotext > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.codingintrotext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids {
+		width: 90%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.whatiscodingforkids > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.whatiscodingforkids > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids2 {
+		display: flex;
+		flex-direction: row;
+		/* flex-wrap:wrap; */
+		width: 100%;
+	}
+	.whatiscodingforkids2 > img {
+		height: 300px;
+		width: 350px;
+		margin-top: -30px;
+	}
+	.whyshouldkidslearntocode {
+		display: flex;
+		/* flex-wrap: wrap; */
+		flex-direction: row;
+		width: 90%;
+	}
+	.whyshouldkidslearntocodetext > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.whyshouldkidslearntocodetext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whyshouldkidslearntocode > img {
+		height: 300px;
+		width: 370px;
+		object-fit: contain;
+		margin-top: 30px;
+	}
+	.isithardtolearn {
+		width: 90%;
+	}
+	.isithardtolearn > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 50px;
+	}
+	.hardimgandtext {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+	.hardimgandtext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.hardimgandtext > img {
+		height: 350px;
+		width: 400px;
+		object-fit: contain;
+		margin-top: -40px;
+	}
+	.howtoteachyourkidstocode {
+		width: 90%;
+		margin-top: -15px;
+	}
+	.howtoteachyourkidstocode > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 60px;
+	}
+	.howtoteachyourkidstocode > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.howtoteachyourkidstocode > img {
+		width: 100%;
+	}
+	.learntocodeapp {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	.learntocodeapp > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.learntocodeapp > img {
+		width: 300px;
+		height: 300px;
+		margin-top: -40px;
+	}
+	.learntocodeonline {
+		width: 90%;
+	}
+	.learntocodeonline > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 60px;
+	}
+	.learntocodeonline > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+}
+
+@media screen and (max-width: 788px) {
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.WhatContent {
+		width: 90%;
+		height: auto;
+		display: flex;
+
+		justify-content: center;
+
+		flex-direction: column;
+	}
+	.introwhatiscoding {
+		width: 100%;
+		height: auto;
+		flex-direction: row;
+		display: flex;
+		justify-content: space-between;
+	}
+	.left {
+		width: 100%;
+	}
+	.left > h1 {
+		font-size: 30px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.left > h3 {
+		font-size: 20px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		color: rgb(95, 93, 93);
+		text-align: center;
+	}
+	.right {
+		display: none;
+	}
+	.textup {
+		width: 100%;
+		height: 60px;
+		padding-left: 6px;
+		font-size: 15px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		/* background-color: #6361eb; */
+		display: flex;
+
+		flex-direction: row;
+		align-items: center;
+	}
+	.whatsStart {
+		margin-top: 0px;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.image1Holder {
+		width: 230px;
+		height: 280px;
+		object-fit: cover;
+		margin-top: 260px;
+		margin-right: 30px;
+		/* background-color: red; */
+		margin-top: 120px;
+	}
+	.kidCode {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+	.codingintrotext {
+		width: 53%;
+		margin-top: 30px;
+	}
+	.codingintrotext > h1 {
+		font-size: 30px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.codingintrotext > p {
+		font-size: 18px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids {
+		width: 90%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.whatiscodingforkids > h1 {
+		font-size: 30px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.whatiscodingforkids > p {
+		font-size: 18px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids2 {
+		display: flex;
+		flex-direction: row;
+		/* flex-wrap:wrap; */
+		width: 100%;
+	}
+	.whatiscodingforkids2 > img {
+		height: 300px;
+		width: 350px;
+		margin-top: -30px;
+	}
+	.whyshouldkidslearntocode {
+		display: flex;
+		flex-direction: row;
+		width: 90%;
+	}
+	.whyshouldkidslearntocodetext > h1 {
+		font-size: 30px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.whyshouldkidslearntocodetext > p {
+		font-size: 18px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whyshouldkidslearntocode > img {
+		height: 300px;
+		width: 370px;
+		object-fit: contain;
+		margin-top: 30px;
+	}
+	.isithardtolearn {
+		width: 90%;
+	}
+	.isithardtolearn > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 50px;
+	}
+	.hardimgandtext {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+	.hardimgandtext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.hardimgandtext > img {
+		height: 350px;
+		width: 400px;
+		object-fit: contain;
+		margin-top: -40px;
+	}
+	.howtoteachyourkidstocode {
+		width: 90%;
+		margin-top: -15px;
+	}
+	.howtoteachyourkidstocode > h1 {
+		font-size: 35px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 60px;
+	}
+	.howtoteachyourkidstocode > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.howtoteachyourkidstocode > img {
+		width: 100%;
+	}
+	.learntocodeapp {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	.learntocodeapp > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.learntocodeapp > img {
+		width: 300px;
+		height: 300px;
+		margin-top: -40px;
+	}
+	.learntocodeonline {
+		width: 90%;
+	}
+	.learntocodeonline > h1 {
+		font-size: 30px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 60px;
+	}
+	.learntocodeonline > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+}
+@media screen and (max-width: 620px) {
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+		justify-content: center;
+	}
+	.WhatContent {
+		width: 95%;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		margin-top: 50px;
+		flex-direction: column;
+	}
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.introwhatiscoding {
+		width: 100%;
+		height: auto;
+		flex-direction: row;
+		display: flex;
+		justify-content: center;
+	}
+	.left {
+		width: 100%;
+		justify-content: center;
+
+		display: flex;
+	}
+	.left > h1 {
+		font-size: 30px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		margin-left: -50px;
+	}
+	.left > h3 {
+		font-size: 20px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		color: rgb(95, 93, 93);
+		margin-left: -90px;
+	}
+	.right {
+		display: none;
+	}
+	.textup {
+		width: 100%;
+		height: 60px;
+		padding-left: 6px;
+		font-size: 15px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		/* background-color: #6361eb; */
+		display: flex;
+
+		flex-direction: row;
+		align-items: center;
+	}
+	.whatsStart {
+		margin-top: 0px;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.image1Holder {
+		width: 230px;
+		height: 280px;
+		object-fit: cover;
+		margin-top: 260px;
+		margin-right: 30px;
+		/* background-color: red; */
+		margin-top: 120px;
+	}
+	.kidCode {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+	.codingintrotext {
+		width: 53%;
+		margin-top: 30px;
+	}
+	.codingintrotext > h1 {
+		font-size: 30px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.codingintrotext > p {
+		font-size: 18px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids {
+		width: 90%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.whatiscodingforkids > h1 {
+		font-size: 30px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.whatiscodingforkids > p {
+		font-size: 18px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids2 {
+		display: flex;
+		flex-direction: row;
+		/* flex-wrap:wrap; */
+		width: 100%;
+	}
+	.whatiscodingforkids2 > img {
+		height: 200px;
+		width: 300px;
+		margin-top: -30px;
+		margin-top: 70px;
+	}
+	.whyshouldkidslearntocode {
+		display: flex;
+		/* flex-wrap: wrap; */
+		flex-direction: row;
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+	}
+	.whyshouldkidslearntocodetext > h1 {
+		font-size: 30px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+	.whyshouldkidslearntocodetext > p {
+		font-size: 18px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whyshouldkidslearntocode > img {
+		align-self: center;
+		height: 280px;
+		width: 370px;
+		object-fit: contain;
+	}
+	.isithardtolearn {
+		width: 100%;
+	}
+	.isithardtolearn > h1 {
+		font-size: 30px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 50px;
+	}
+	.hardimgandtext {
+		width: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+		flex-wrap: wrap;
+	}
+	.hardimgandtext > p {
+		font-size: 20px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.hardimgandtext > img {
+		height: 350px;
+		width: 400px;
+		object-fit: contain;
+	}
+	.howtoteachyourkidstocode {
+		width: 90%;
+		margin-top: -15px;
+	}
+	.howtoteachyourkidstocode > h1 {
+		font-size: 30px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 60px;
+	}
+	.howtoteachyourkidstocode > p {
+		font-size: 18px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.howtoteachyourkidstocode > img {
+		width: 100%;
+	}
+	.learntocodeapp {
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+		display: flex;
+		/* flex-direction: column; */
+	}
+	.learntocodeapp > p {
+		font-size: 18px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.learntocodeapp > img {
+		width: 300px;
+		height: 300px;
+		align-self: center;
+	}
+	.learntocodeonline {
+		width: 90%;
+	}
+	.learntocodeonline > h1 {
+		font-size: 30px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: lighter;
+		margin-top: 60px;
+	}
+	.learntocodeonline > p {
+		font-size: 18px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.learntocodeonline > img {
+		width: 280px;
+		height: 280px;
+		align-self: center;
+	}
+}
+
+@media screen and (max-width: 582px) {
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+		justify-content: center;
+	}
+	.WhatContent {
+		width: 90%;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		margin-top: 45px;
+		flex-direction: column;
+	}
+
+	.introwhatiscoding {
+		width: 100%;
+		height: auto;
+		flex-direction: row;
+		display: flex;
+		justify-content: center;
+	}
+	.left {
+		width: 100%;
+		justify-content: center;
+	}
+	.left > h1 {
+		font-size: 20px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		text-align: center;
+		margin-left: -50px;
+	}
+	.left > h3 {
+		font-size: 15px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		color: rgb(95, 93, 93);
+		text-align: center;
+		margin-left: -90px;
+	}
+	.right {
+		display: none;
+	}
+	.textup {
+		width: 100%;
+		height: 60px;
+		padding-left: 6px;
+		font-size: 15px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		/* background-color: #6361eb; */
+		display: flex;
+
+		flex-direction: row;
+		align-items: center;
+	}
+	.whatsStart {
+		margin-top: 0px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.image1Holder {
+		width: 340px;
+		height: 280px;
+		object-fit: cover;
+		align-self: center;
+		margin-top: -40px;
+	}
+	.kidCode {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+	.codingintrotext {
+		width: 100%;
+		margin-top: 30px;
+	}
+	.codingintrotext > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+	}
+	.codingintrotext > p {
+		font-size: 17px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.whatiscodingforkids > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+	}
+	.whatiscodingforkids > p {
+		font-size: 17px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids2 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.whatiscodingforkids2 > img {
+		height: 200px;
+		width: 300px;
+		margin-top: -30px;
+	}
+	.whyshouldkidslearntocode {
+		display: flex;
+		/* flex-wrap: wrap; */
+		flex-direction: row;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.whyshouldkidslearntocodetext > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+	}
+	.whyshouldkidslearntocodetext > p {
+		font-size: 17px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whyshouldkidslearntocode > img {
+		align-self: center;
+		height: 280px;
+		width: 250px;
+		margin-top: -20px;
+		object-fit: contain;
+	}
+	.isithardtolearn {
+		width: 100%;
+		/* background-color: red; */
+	}
+	.isithardtolearn > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+		margin-top: 4px;
+	}
+	.hardimgandtext {
+		width: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+		flex-wrap: wrap;
+	}
+	.hardimgandtext > p {
+		font-size: 17px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.hardimgandtext > img {
+		height: 350px;
+		width: 300px;
+		margin-top: -70px;
+		object-fit: contain;
+	}
+	.howtoteachyourkidstocode {
+		width: 100%;
+		margin-top: -60px;
+	}
+	.howtoteachyourkidstocode > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+		margin-top: 60px;
+	}
+	.howtoteachyourkidstocode > p {
+		font-size: 17px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.howtoteachyourkidstocode > img {
+		width: 100%;
+	}
+	.learntocodeapp {
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+		display: flex;
+		/* flex-direction: column; */
+	}
+	.learntocodeapp > p {
+		font-size: 17px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.learntocodeapp > img {
+		width: 300px;
+		height: 300px;
+		align-self: center;
+	}
+	.learntocodeonline {
+		width: 90%;
+	}
+	.learntocodeonline > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+		margin-top: 60px;
+	}
+	.learntocodeonline > p {
+		font-size: 17px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.learntocodeonline > img {
+		width: 280px;
+		height: 280px;
+		align-self: center;
+	}
+	.picturebasedblockcodingapp {
+		width: 300px;
+		height: 280px;
+		align-self: center;
+	}
+}
+@media screen and (max-width: 425px) {
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+		justify-content: center;
+	}
+	.WhatContent {
+		width: 90%;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		margin-top: 45px;
+		flex-direction: column;
+	}
+
+	.introwhatiscoding {
+		width: 100%;
+		height: auto;
+		flex-direction: row;
+		display: flex;
+		justify-content: center;
+	}
+	.left {
+		width: 100%;
+		justify-content: center;
+	}
+	.left > h1 {
+		font-size: 20px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		text-align: center;
+	}
+	.left > h3 {
+		font-size: 15px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		color: rgb(95, 93, 93);
+		text-align: center;
+	}
+	.right {
+		display: none;
+	}
+	.textup {
+		width: 100%;
+		height: 60px;
+		padding-left: 6px;
+		font-size: 15px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		/* background-color: #6361eb; */
+		display: flex;
+
+		flex-direction: row;
+		align-items: center;
+	}
+	.whatsStart {
+		margin-top: 0px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.image1Holder {
+		width: 340px;
+		height: 280px;
+		object-fit: cover;
+		align-self: center;
+		margin-top: -40px;
+	}
+	.kidCode {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+	.codingintrotext {
+		width: 100%;
+		margin-top: 30px;
+	}
+	.codingintrotext > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+	}
+	.codingintrotext > p {
+		font-size: 17px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.whatiscodingforkids > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+	}
+	.whatiscodingforkids > p {
+		font-size: 17px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids2 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.whatiscodingforkids2 > img {
+		height: 200px;
+		width: 300px;
+		margin-top: -30px;
+	}
+	.whyshouldkidslearntocode {
+		display: flex;
+		/* flex-wrap: wrap; */
+		flex-direction: row;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.whyshouldkidslearntocodetext > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+	}
+	.whyshouldkidslearntocodetext > p {
+		font-size: 17px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whyshouldkidslearntocode > img {
+		align-self: center;
+		height: 280px;
+		width: 250px;
+		margin-top: -20px;
+		object-fit: contain;
+	}
+	.isithardtolearn {
+		width: 100%;
+		/* background-color: red; */
+	}
+	.isithardtolearn > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+		margin-top: 4px;
+	}
+	.hardimgandtext {
+		width: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+		flex-wrap: wrap;
+	}
+	.hardimgandtext > p {
+		font-size: 17px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.hardimgandtext > img {
+		height: 350px;
+		width: 300px;
+		margin-top: -70px;
+		object-fit: contain;
+	}
+	.howtoteachyourkidstocode {
+		width: 100%;
+		margin-top: -70px;
+	}
+	.howtoteachyourkidstocode > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+		margin-top: 60px;
+	}
+	.howtoteachyourkidstocode > p {
+		font-size: 17px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.howtoteachyourkidstocode > img {
+		width: 100%;
+	}
+	.learntocodeapp {
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+		display: flex;
+		/* flex-direction: column; */
+	}
+	.learntocodeapp > p {
+		font-size: 17px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.learntocodeapp > img {
+		width: 300px;
+		height: 300px;
+		align-self: center;
+	}
+	.learntocodeonline {
+		width: 90%;
+	}
+	.learntocodeonline > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+		margin-top: 60px;
+	}
+	.learntocodeonline > p {
+		font-size: 17px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.learntocodeonline > img {
+		width: 280px;
+		height: 280px;
+		align-self: center;
+	}
+	.picturebasedblockcodingapp {
+		width: 300px;
+		height: 280px;
+		align-self: center;
+	}
+}
+@media screen and (max-width: 375px) {
+	.whatiscoding {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		align-items: flex-start;
+		justify-content: center;
+	}
+	.WhatContent {
+		width: 90%;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		margin-top: 45px;
+		flex-direction: column;
+	}
+
+	.introwhatiscoding {
+		width: 100%;
+		height: auto;
+		flex-direction: row;
+		display: flex;
+		text-align: center;
+		justify-content: center;
+	}
+	.left {
+		width: 100%;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		text-align: flex-start;
+	}
+	.left > h1 {
+		font-size: 18px;
+		width: 100%;
+		font-weight: lighter;
+		font-family: sans-serif;
+		text-align: center;
+		margin-left: -13px;
+	}
+	.left > h3 {
+		margin-left: -70px;
+	}
+	.right {
+		display: none;
+	}
+	.textup {
+		width: 100%;
+		height: 60px;
+		padding-left: 6px;
+		font-size: 15px;
+		font-weight: lighter;
+		font-family: sans-serif;
+		/* background-color: #6361eb; */
+		display: flex;
+
+		flex-direction: row;
+		align-items: center;
+	}
+	.whatsStart {
+		margin-top: 0px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.image1Holder {
+		width: 340px;
+		height: 280px;
+		object-fit: cover;
+		align-self: center;
+		margin-top: -40px;
+	}
+	.kidCode {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+	.codingintrotext {
+		width: 100%;
+		margin-top: 30px;
+	}
+	.codingintrotext > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+	}
+	.codingintrotext > p {
+		font-size: 15px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.whatiscodingforkids > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+	}
+	.whatiscodingforkids > p {
+		font-size: 15px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whatiscodingforkids2 {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.whatiscodingforkids2 > img {
+		height: 200px;
+		width: 300px;
+		margin-top: -30px;
+	}
+	.whyshouldkidslearntocode {
+		display: flex;
+		/* flex-wrap: wrap; */
+		flex-direction: row;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.whyshouldkidslearntocodetext > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+	}
+	.whyshouldkidslearntocodetext > p {
+		font-size: 15px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.whyshouldkidslearntocode > img {
+		align-self: center;
+		height: 280px;
+		width: 250px;
+		margin-top: -20px;
+		object-fit: contain;
+	}
+	.isithardtolearn {
+		width: 100%;
+		/* background-color: red; */
+	}
+	.isithardtolearn > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+		margin-top: 4px;
+	}
+	.hardimgandtext {
+		width: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+		flex-wrap: wrap;
+	}
+	.hardimgandtext > p {
+		font-size: 15px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.hardimgandtext > img {
+		height: 350px;
+		width: 300px;
+		margin-top: -70px;
+		object-fit: contain;
+	}
+	.howtoteachyourkidstocode {
+		width: 100%;
+		margin-top: -70px;
+	}
+	.howtoteachyourkidstocode > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+		margin-top: 60px;
+	}
+	.howtoteachyourkidstocode > p {
+		font-size: 15px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.howtoteachyourkidstocode > img {
+		width: 100%;
+	}
+	.learntocodeapp {
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+		display: flex;
+		/* flex-direction: column; */
+	}
+	.learntocodeapp > p {
+		font-size: 15px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.learntocodeapp > img {
+		width: 300px;
+		height: 300px;
+		align-self: center;
+	}
+	.learntocodeonline {
+		width: 90%;
+	}
+	.learntocodeonline > h1 {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: sans-serif;
+		font-weight: bold;
+		margin-top: 60px;
+	}
+	.learntocodeonline > p {
+		font-size: 15px;
+		color: rgb(28, 27, 27);
+		line-height: 30px;
+	}
+	.learntocodeonline > img {
+		width: 280px;
+		height: 280px;
+		align-self: center;
+	}
+	.picturebasedblockcodingapp {
+		width: 300px;
+		height: 280px;
+		align-self: center;
+	}
+}
